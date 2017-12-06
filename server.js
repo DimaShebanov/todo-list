@@ -68,7 +68,7 @@ app.get(/(.*\..*)/, (req, res) => {
 
 
 //===========  starting a server ======================
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, () => {
     console.log('App is listening on port ' + port);
 })
 
